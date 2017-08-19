@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2017-08-17 00:28:45
-* @Last Modified by:   gloomyline
-* @Last Modified time: 2017-08-17 00:59:43
+* @Last Modified by:   gloomy
+* @Last Modified time: 2017-08-19 11:42:43
 */
 
 /**
@@ -31,3 +31,5 @@ function removeDuplicateInArray(arr) {
 
 var arr = [1, 14, 42, 14, 23, 11, 23, 42]
 console.log(removeDuplicateInArray(arr))
+
+module.exports = removeDuplicateInArray
