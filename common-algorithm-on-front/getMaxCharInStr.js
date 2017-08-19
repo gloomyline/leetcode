@@ -1,8 +1,8 @@
 /*
 * @Author: gloomyline
 * @Date:   2017-08-17 00:28:45
-* @Last Modified by:   gloomyline
-* @Last Modified time: 2017-08-17 00:59:43
+* @Last Modified by:   gloomy
+* @Last Modified time: 2017-08-19 17:44:24
 */
 
 /**
@@ -39,6 +39,8 @@ function findMaxDuplicateChar(str) {
 	return [maxDuplicateChar, strObj[maxDuplicateChar]]
 }
 
-let str = 'afjghdlfraaaasddenas'
-let res = findMaxDuplicateChar(str)
-console.log(res[0], res[1])
+// let str = 'afjghdlfraaaasddenas'
+// let res = findMaxDuplicateChar(str)
+// console.log(res[0], res[1])
+
+module.exports = exports = findMaxDuplicateChar

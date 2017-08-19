@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2017-08-17 00:12:32
-* @Last Modified by:   Administrator
-* @Last Modified time: 2017-08-17 00:23:55
+* @Last Modified by:   gloomy
+* @Last Modified time: 2017-08-19 17:44:49
 */
 
 'use strict'
@@ -20,5 +20,8 @@ function isPalindrome(str) {
 	return str.split('').reverse().join('') === str
 }
 
-var a = 'alannala'
-console.log(isPalindrome(a))
+// var a = 'alannala'
+// console.log(isPalindrome(a))
+// 
+
+module.exports = exports = isPalindrome

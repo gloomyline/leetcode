@@ -2,12 +2,14 @@
 * @Author: Alan
 * @Date:   2017-08-19 11:07:00
 * @Last Modified by:   gloomy
-* @Last Modified time: 2017-08-19 11:28:22
+* @Last Modified time: 2017-08-19 17:43:51
 */
 
 /**
  *  bubleSort
  */
+
+const utils = require('./utils')
 
 function bubleSort(arr) {
 	if (typeof arr !== 'object' || arr.constructor !== Array) {
@@ -27,21 +29,4 @@ function bubleSort(arr) {
 	return arr 
 }
 
-/**
- * 生成随机整数数组
- * @param  {[int]} start  整数范围起点
- * @param  {[int]} end    [description]
- * @param  {[int]} length [description]
- * @return {[Array]}        [description]
- */
-function genRandintArr(start, end, length) {
-	let arr = [], range = end - start
-	for (let i = 0; i < length; i++) {
-		arr[i] = Math.ceil(Math.random() * range)
-	}
-	return arr
-}
-
-let arr = genRandintArr(1, 10, 10)
-let sortedArr = bubleSort(arr)
-console.log(sortedArr)
+module.exports = exports = bubleSort
