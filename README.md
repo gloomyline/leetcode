@@ -7,7 +7,7 @@
 
 2. sum three times or five times from 10 to 100
     
-    [link](https://)
+    [link](https://github.com/gloomyline/leetcode/blob/master/series/sumThreeOrFiveTimes.js)
 
 3. common algorithm on front
 
